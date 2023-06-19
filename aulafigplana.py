@@ -1,0 +1,33 @@
+print (input("Hoje teremos uma aula sobre figuras geometricas planas"))
+
+print ("O valor da area de um quadrado ou losango é sempre um dos lados elevado ào quadrado")
+L = (input(f"Insira o tamanho do lado"))
+Lint = (int(L))
+print (input(f"A área é de {Lint**2} metros quadrados"))
+print ("O valor da area de um retângulo o é sua base multiplicada pela altura")
+brt = (input(f"Insira o tamanho da base"))
+art = (input(f"Insira o tamanho da altura"))
+Lbrt = (int(brt))
+Lart = (int(art))
+print (input(f"A área do retângulo é de {Lbrt*Lart} metros quadrados"))
+
+print ("O valor da area de um triangulo é sua base multiplicado pela altura dividido por 2")
+AT = (input(f"Insira a altura do triângulo"))
+BT = (input(f"Insira o tamanho da base do triângulo"))
+Lat = (int(AT))
+Lbt = (int(BT))
+print (input(f"A área do triângulo é de {(Lat*Lbt)/2} metros quadrados"))
+
+print ("O valor da area de um trapézio é sua base menor somado à base menor multiplicado pela altura e dividido por 2")
+print ('Por Exemplo')
+ATr = (input(f"Insira a altura do trapézio"))
+BiT= (input(f"Insira o tamanho da base inferior do trapézio"))
+BsT= (input(f"Insira o tamanho da base superior do trapézio"))
+Latr = (int(ATr))
+Lbit = (int(BiT))
+Lbst = (int(BsT))
+print (input(f"A área do trapézio é de {((Lbst+Lbit)*Latr)/2} metros quadrados"))
+
+input("Meus Parabéns")
+
+print (input("Agora você sabe o basico sobre Geometria plana"))
